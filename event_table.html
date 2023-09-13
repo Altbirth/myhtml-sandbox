@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+ <title>HTML Table with Merged Cells</title>
+ <style>
+ table {
+ width: 100%;
+ border-collapse: collapse;
+  background-color: #0bbac7;
+ }
+ h1 {
+    text-align: center;
+    color: rgb(224, 12, 12);
+ }
+ th, td {
+ border: 1px solid #ccc;
+ padding: 8px;
+ text-align: center;
+ }
+ th {
+ background-color: #bc19ee;
+ }
+ </style>
+</head>
+<body>
+ <h1>Anime Events</h1>
+ <table>
+ <tr>
+ <th>Event Name</th>
+ <th colspan="2">Event Details</th>
+ </tr>
+ <tr>
+ <td>Comiket</td>
+ <td>August 26, 2023</td>
+ <td>Japan</td>
+
+ </tr>
+
+ <tr>
+ <td >Anime Fair</td>
+ <td rowspan="2">December 2, 2023</td>
+ <td>USA</td>
+
+
+ </tr>
+ <tr>
+ <td>Anime Expo</td>
+ <td rowspan="2">Singapore</td>
+
+
+ </tr>
+
+ <tr>
+    <td>Ai-kon</td>
+    <td>October 12, 2023</td>
+
+
+    </tr>
+ </table>
+</body>
+</html>s
